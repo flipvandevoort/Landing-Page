@@ -1,0 +1,23 @@
+#header {
+  display: flex;
+  flex-direction: row;
+}
+
+#header div {
+  width: 50vw;
+  height: 100vh;
+}
+
+#header-img {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-image: url(img/header-img.jpg);
+  background-size: cover;
+  background-position: 45%;
+}
+
+#content {
+  padding: 1%;
+  padding-right: 50vw;
+}
